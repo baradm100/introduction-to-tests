@@ -1,6 +1,6 @@
 # Introduction to tests
 
-This is the code for the presentation on introduction to tests.
+This is the code for the presentation on introduction to tests. You can view the presentation [here](https://docs.google.com/presentation/d/1jBXMHS9i75KGAT84e3XzDQrikM932QOcZmUuU-kigAg/edit?usp=sharing).
 
 ## Steps
 
