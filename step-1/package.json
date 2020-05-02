@@ -1,16 +1,13 @@
 {
-  "name": "step-1",
-  "version": "1.0.0",
-  "description": "In this step we will init an npm project, write our code and install the testing libraries.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^5.2.0"
-  }
+    "name": "step-1",
+    "version": "1.0.0",
+    "description": "In this step we will init an npm project, write our code and install the testing libraries.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {}
 }

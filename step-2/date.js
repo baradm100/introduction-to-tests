@@ -1,5 +1,5 @@
 // Helper function
-const isNumber = value => !Number.isNaN(parseFloat(value));
+const isNumber = (value) => !Number.isNaN(parseFloat(value));
 
 // Adding time intervals by milliseconds for easy usage
 Date.convertTable = {
@@ -34,15 +34,15 @@ Date.prototype.add = function (unit, value) {
 
     // Add by the unit
     if (unit === 'seconds') {
-        this.setTime(this.getTime() + (Date.convertTable.second * value));
+        this.setTime(this.getTime() + Date.convertTable.second * value);
     } else if (unit === 'minutes') {
-        this.setTime(this.getTime() + (Date.convertTable.minute * value));
+        this.setTime(this.getTime() + Date.convertTable.minute * value);
     } else if (unit === 'hours') {
-        this.setTime(this.getTime() + (Date.convertTable.hour * value));
+        this.setTime(this.getTime() + Date.convertTable.hour * value);
     } else if (unit === 'days') {
-        this.setTime(this.getTime() + (Date.convertTable.day * value));
+        this.setTime(this.getTime() + Date.convertTable.day * value);
     } else if (unit === 'weeks') {
-        this.setTime(this.getTime() + (Date.convertTable.week * value));
+        this.setTime(this.getTime() + Date.convertTable.week * value);
     } else if (unit === 'months') {
         this.setUTCMonth(this.getMonth() + value);
     } else if (unit === 'years') {
